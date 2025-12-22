@@ -1,142 +1,194 @@
+/* styles.css (REAL CSS) */
+:root{
+  --bg:#f8fafc;
+  --fg:#0f172a;
+  --card:#ffffff;
+  --border:#e2e8f0;
+  --muted:#f1f5f9;
+  --muted-fg:#64748b;
 
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Marketing Calendar (View Only)</title>
+  --sol-ai-business:#f97316;
+  --sol-cloud-ai:#22c55e;
+  --sol-security:#a855f7;
+  --sol-all-csas:#0ea5e9;
+}
 
-  <!-- Tailwind CDN (static pages용) -->
-  <script src="https://cdn.tailwindcss.com"></script>
+html, body{
+  height:100%;
+  margin:0;
+  font-family:"Noto Sans KR", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background:var(--bg);
+  color:var(--fg);
+}
 
-  <!-- Phosphor Icons -->
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+.bg-background{ background: var(--bg); }
+.text-foreground{ color: var(--fg); }
+.text-muted-foreground{ color: var(--muted-fg); }
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+.icon-btn{
+  width:36px;height:36px;
+  display:inline-flex;align-items:center;justify-content:center;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:var(--card);
+  cursor:pointer;
+}
+.icon-btn:hover{ background:var(--muted); }
 
-  <link rel="stylesheet" href="./styles.css" />
-</head>
+.ghost-btn{
+  height:36px;
+  padding:0 12px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:transparent;
+  cursor:pointer;
+}
+.ghost-btn:hover{ background:var(--muted); }
 
-<body class="bg-background text-foreground antialiased">
-  <div class="max-w-[2400px] mx-auto p-6">
-    <!-- Header -->
-    <header class="mb-8">
-      <div class="flex items-center justify-between gap-4">
-        <div class="flex items-center gap-2">
-          <button id="prevMonthBtn" class="icon-btn" aria-label="Previous month">
-            <i class="ph ph-caret-left"></i>
-          </button>
+.weekday{
+  padding:10px 12px;
+  font-weight:600;
+  color:var(--muted-fg);
+  border-right:1px solid var(--border);
+}
+.weekday:last-child{ border-right:none; }
 
-          <h1 id="monthTitle" class="text-2xl font-semibold tracking-tight">—</h1>
+#calendarGrid{
+  border-top:1px solid var(--border);
+}
+.day{
+  min-height:140px;
+  padding:10px 10px 12px;
+  border-right:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  background:var(--card);
+}
+.day:nth-child(7n){ border-right:none; }
+.day.other-month{ background:#fbfdff; color:#94a3b8; }
 
-          <button id="nextMonthBtn" class="icon-btn" aria-label="Next month">
-            <i class="ph ph-caret-right"></i>
-          </button>
-        </div>
+.day-number{
+  font-size:12px;
+  font-weight:600;
+  color:var(--muted-fg);
+  margin-bottom:8px;
+}
 
-        <div class="flex items-center gap-2">
-          <button id="todayBtn" class="ghost-btn">Today</button>
-          <button id="reloadBtn" class="ghost-btn">Reload JSON</button>
-        </div>
-      </div>
+.events{ display:flex; flex-direction:column; gap:8px; }
 
-      <!-- (옵션) Filters -->
-      <div id="filterBar" class="mt-7 flex flex-wrap gap-2"></div>
-    </header>
+.event-card{
+  border-left:4px solid var(--muted-fg);
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:10px 10px;
+  cursor:pointer;
+  box-shadow:0 1px 2px rgba(15,23,42,0.06);
+}
+.event-card:hover{ background:var(--muted); }
 
-    <!-- Calendar Container -->
-    <main class="bg-card border border-border rounded-xl shadow-sm overflow-hidden">
-      <!-- Weekday header -->
-      <div class="grid grid-cols-7 bg-muted/30 border-b border-border">
-        <div class="weekday">Sun</div>
-        <div class="weekday">Mon</div>
-        <div class="weekday">Tue</div>
-        <div class="weekday">Wed</div>
-        <div class="weekday">Thu</div>
-        <div class="weekday">Fri</div>
-        <div class="weekday">Sat</div>
-      </div>
+.event-title{
+  font-size:13px;
+  font-weight:700;
+  line-height:1.25;
+  margin-bottom:6px;
+}
 
-      <!-- Grid -->
-      <div id="calendarGrid" class="grid grid-cols-7"></div>
-    </main>
-  </div>
+.event-location{
+  display:flex; gap:6px;
+  font-size:12px;
+  color:var(--muted-fg);
+  align-items:center;
+}
 
-  <!-- Modal (View-only) -->
-  <div id="modalBackdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal-panel" role="document">
-      <div class="modal-inner">
-        <div class="modal-top">
-          <h2 id="modalTitle" class="modal-title"></h2>
-          <button id="modalCloseBtn" class="modal-close" aria-label="Close">
-            <i class="ph ph-x"></i>
-          </button>
-        </div>
+.truncate{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
 
-        <div class="mt-3">
-          <span id="modalSolutionPill" class="solution-pill">—</span>
-        </div>
+.event-links{
+  display:flex; gap:10px;
+  margin-top:8px;
+  font-size:12px;
+}
+.event-links a{
+  display:inline-flex; align-items:center; gap:6px;
+  color:var(--fg);
+  text-decoration:none;
+  opacity:.85;
+}
+.event-links a:hover{ opacity:1; text-decoration:underline; }
 
-        <div class="modal-body mt-6 space-y-5">
-          <!-- Date -->
-          <div class="modal-row">
-            <div class="modal-icon">
-              <i class="ph ph-calendar-blank"></i>
-            </div>
-            <div class="modal-content">
-              <div class="modal-label">Date</div>
-              <div id="modalDate" class="modal-value">—</div>
-            </div>
-          </div>
+.cont-card{
+  display:flex; align-items:center; gap:6px;
+  border-left:4px solid var(--muted-fg);
+  border:1px dashed var(--border);
+  border-radius:12px;
+  padding:8px 10px;
+  cursor:pointer;
+  background:transparent;
+}
+.cont-card:hover{ background:var(--muted); }
+.cont-title{ font-size:12px; font-weight:700; }
 
-          <!-- Location -->
-          <div class="modal-row">
-            <div class="modal-icon">
-              <i class="ph ph-map-pin"></i>
-            </div>
-            <div class="modal-content">
-              <div class="modal-label">Location</div>
-              <div id="modalLocation" class="modal-value">—</div>
-            </div>
-          </div>
+.filter-pill{
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:12px;
+  background:var(--card);
+  cursor:pointer;
+}
+.filter-pill.active{ color:#fff; border-color:transparent; }
 
-          <!-- Registration -->
-          <div id="modalRegRow" class="modal-row">
-            <div class="modal-icon">
-              <i class="ph ph-link-simple"></i>
-            </div>
-            <div class="modal-content">
-              <div class="modal-label">Registration Page</div>
-              <a id="modalRegLink" class="modal-link" href="#" target="_blank" rel="noopener noreferrer">—</a>
-            </div>
-          </div>
+/* Modal */
+.modal-backdrop{
+  position:fixed; inset:0;
+  background:rgba(2,6,23,0.45);
+  display:flex; align-items:center; justify-content:center;
+  padding:24px;
+  z-index:50;
+}
+.modal-backdrop.hidden{ display:none; }
 
-          <!-- Viva -->
-          <div id="modalVivaRow" class="modal-row">
-            <div class="modal-icon">
-              <i class="ph ph-link-simple"></i>
-            </div>
-            <div class="modal-content">
-              <div class="modal-label">Viva Engage</div>
-              <a id="modalVivaLink" class="modal-link" href="#" target="_blank" rel="noopener noreferrer">—</a>
-            </div>
-          </div>
-        </div>
+.modal-panel{
+  width:min(720px, 100%);
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  box-shadow:0 20px 60px rgba(15,23,42,0.25);
+}
+.modal-inner{ padding:18px 18px 16px; }
+.modal-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; }
+.modal-title{ margin:0; font-size:18px; font-weight:800; }
+.modal-close{
+  border:1px solid var(--border);
+  width:36px;height:36px;
+  border-radius:10px;
+  background:transparent;
+  cursor:pointer;
+}
+.modal-close:hover{ background:var(--muted); }
 
-        <!-- View-only footer: (Edit/Delete 제거) -->
-        <div class="modal-footer mt-6">
-          <div class="text-xs text-muted-foreground">
-            View-only page • Links open in a new tab
-          </div>
-        </div>
+.solution-pill{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  color:white;
+  font-weight:700;
+  font-size:12px;
+}
 
-      </div>
-    </div>
-  </div>
+.modal-row{ display:flex; gap:12px; }
+.modal-icon{
+  width:34px; height:34px;
+  border-radius:10px;
+  background:var(--muted);
+  display:flex; align-items:center; justify-content:center;
+  color:var(--muted-fg);
+}
+.modal-label{ font-size:12px; color:var(--muted-fg); margin-bottom:2px; }
+.modal-value{ font-size:14px; font-weight:600; }
+.modal-link{ font-size:13px; word-break:break-all; }
 
-  <script src="./main.js"></script>
-</body>
-</html>
+.modal-footer{ border-top:1px solid var(--border); padding-top:12px; }
