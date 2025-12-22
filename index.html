@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Calendar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css?v=1" />
+</head>
+<body>
+  <div class="page">
+    <div class="container">
+      <header class="header">
+        <div class="month-nav">
+          <button class="icon-btn" id="prevMonthBtn" aria-label="Previous month">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <h1 class="month-title" id="monthTitle">—</h1>
+          <button class="icon-btn" id="nextMonthBtn" aria-label="Next month">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+
+        <div class="header-actions">
+          <button class="ghost-btn" id="todayBtn">Today</button>
+          <button class="ghost-btn" id="reloadBtn">Reload JSON</button>
+        </div>
+      </header>
+
+      <div class="filters" id="filterBar" aria-label="Solution filters"></div>
+
+      <section class="calendar-shell" aria-label="Calendar">
+        <div class="weekday-row">
+          <div class="weekday">Sun</div>
+          <div class="weekday">Mon</div>
+          <div class="weekday">Tue</div>
+          <div class="weekday">Wed</div>
+          <div class="weekday">Thu</div>
+          <div class="weekday">Fri</div>
+          <div class="weekday">Sat</div>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-backdrop hidden" id="modalBackdrop" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-inner">
+        <div class="modal-top">
+          <div class="modal-top-left">
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <div class="modal-sub">
+              <span class="solution-pill" id="modalSolutionPill"></span>
+              <span class="modal-subtext" id="modalDate"></span>
+            </div>
+          </div>
+          <button class="modal-close" id="modalCloseBtn" aria-label="Close">✕</button>
+        </div>
+
+        <div class="modal-content">
+          <div class="modal-row">
+            <div class="modal-icon">📍</div>
+            <div>
+              <div class="modal-label">Location</div>
+              <div class="modal-value" id="modalLocation"></div>
+            </div>
+          </div>
+
+          <div class="modal-row" id="modalTimeRow">
+            <div class="modal-icon">⏱</div>
+            <div>
+              <div class="modal-label">Time</div>
+              <div class="modal-value" id="modalTime"></div>
+            </div>
+          </div>
+
+          <div class="modal-row" id="modalRegRow">
+            <div class="modal-icon">🔗</div>
+            <div>
+              <div class="modal-label">Registration</div>
+              <a class="modal-link" id="modalRegLink" target="_blank" rel="noreferrer"></a>
+            </div>
+          </div>
+
+          <div class="modal-row" id="modalVivaRow">
+            <div class="modal-icon">💬</div>
+            <div>
+              <div class="modal-label">Viva Engage</div>
+              <a class="modal-link" id="modalVivaLink" target="_blank" rel="noreferrer"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="ghost-btn" id="modalCloseBtn2">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js?v=1"></script>
+</body>
+</html>
