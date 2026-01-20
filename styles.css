@@ -199,10 +199,10 @@ a:hover { text-decoration: underline; }
   font-weight: 500;
   color: var(--ring);
   display: flex;
-  gap: 8px; /* gap-2 */
+  gap: 12px; /* gap-2 */
 }
 .event-links a {
-  color: var(--ring);
+  color: oklch(0.45 0.15 240); /* 진한 파랑 */
   text-decoration: none;
   display: inline-flex;
   align-items: center;
