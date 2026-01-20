@@ -107,8 +107,24 @@ function renderFilters(){
     pill.type = "button";
     pill.className = "filter-pill";
     pill.textContent = sol;
-    const isActive = activeFilters.has(sol);
+    const PRIMARY_SOLUTIONS = [
+      "AI Business Solutions",
+      "Cloud and AI Platforms",
+      "Security",
+      ];
+    const ALL_CSAS = "All CSAs";
+    
+    const anyPrimaryOn = PRIMARY_SOLUTIONS.some(s => activeFilters.has(s));
+
+    const isActive =
+      sol === ALL_CSAS
+      // 다른 솔루션이 하나라도 켜져 있으면 "자동 포함" → ON처럼 표시
+      ? anyPrimaryOn || activeFilters.has(ALL_CSAS)
+      // 그 외 솔루션은 기존대로
+      : activeFilters.has(sol);
+    
     setPillActive(pill, sol, isActive);
+
 
     pill.addEventListener("click", () => {
       if (activeFilters.has(sol)) activeFilters.delete(sol);
