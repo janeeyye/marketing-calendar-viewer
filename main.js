@@ -287,7 +287,7 @@ function renderCalendar(){
         links.className = "event-links";
 
         if (ev.registrationUrl && ev.registrationUrl.trim()){
-          links.appendChild(linkEl("등록하기", ev.registrationUrl));
+          links.appendChild(linkEl("Reg➜", ev.registrationUrl));
         }
         if (ev.vivaEngageUrl && ev.vivaEngageUrl.trim()){
           links.appendChild(linkEl("Details", ev.vivaEngageUrl));
