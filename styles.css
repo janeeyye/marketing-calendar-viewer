@@ -202,7 +202,7 @@ a:hover { text-decoration: underline; }
   gap: 12px; /* gap-2 */
 }
 .event-links a {
-  color: oklch(0.45 0.15 240); /* 진한 파랑 */
+  color: #0B2A6F; /* 진한 네이비 */
   text-decoration: none;
   display: inline-flex;
   align-items: center;
