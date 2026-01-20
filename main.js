@@ -197,8 +197,23 @@ function renderCalendar(){
   const monthIndex = currentDate.getMonth();
   const days = getCalendarGrid(year, monthIndex);
 
-  // Filter events by solution
-  const events = allEvents.filter(ev => activeFilters.has(ev.solution));
+  // Filter events by solution (All CSAs conditional always-on)
+  const PRIMARY_SOLUTIONS = [
+    "AI Business Solutions",
+    "Cloud and AI Platforms",
+    "Security",
+    ];
+  const ALL_CSAS = "All CSAs";
+  
+  const anyPrimaryOn = PRIMARY_SOLUTIONS.some(sol => activeFilters.has(sol));
+
+  const events = allEvents.filter(ev => {
+    if (ev.solution === ALL_CSAS) {
+      // 다른 솔루션이 하나라도 켜져 있으면 자동 포함
+      return anyPrimaryOn || activeFilters.has(ALL_CSAS);
+      }
+    return activeFilters.has(ev.solution);
+    });
 
   calendarGridEl.innerHTML = "";
 
