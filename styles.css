@@ -190,7 +190,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 6px; /* gap-1.5 */
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .event-location .pin { font-size: 11px; line-height: 1; }
 
@@ -202,7 +202,7 @@ a:hover { text-decoration: underline; }
   gap: 12px; /* gap-2 */
 }
 .event-links a {
-  color: #0B2A6F; /* 진한 네이비 */
+  color: oklch(0.45 0.15 240); /* 진한 파랑 */
   text-decoration: none;
   display: inline-flex;
   align-items: center;
