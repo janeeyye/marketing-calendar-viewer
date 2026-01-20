@@ -256,10 +256,10 @@ function renderCalendar(){
         links.className = "event-links";
 
         if (ev.registrationUrl && ev.registrationUrl.trim()){
-          links.appendChild(linkEl("Reg", ev.registrationUrl));
+          links.appendChild(linkEl("등록하기", ev.registrationUrl));
         }
         if (ev.vivaEngageUrl && ev.vivaEngageUrl.trim()){
-          links.appendChild(linkEl("Viva", ev.vivaEngageUrl));
+          links.appendChild(linkEl("Details", ev.vivaEngageUrl));
         }
         if (links.childNodes.length > 0){
           card.appendChild(links);
