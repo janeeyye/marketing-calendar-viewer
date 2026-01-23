@@ -1,0 +1,291 @@
+[
+  {
+    "title": "MVTD 교육: Windows Server 및 SQL Server 워크로드 마이그레이션 및 보안​",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-15",
+    "endDate": "2025-12-16",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=4260456412",
+    "id": "event-1766154669496-ca0c0el6r"
+  },
+  {
+    "title": "Security Executive Briefing: Microsoft Digital Defense Report 2025",
+    "solution": "Security",
+    "startDate": "2025-12-15",
+    "location": "Digital(영어, KUDO 통역)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1791016863&ocid=lp_pg469839_gdc_comm_mw",
+    "id": "event-1766156860381-39hmbkn6i"
+  },
+  {
+    "title": "Copilot Agent 100% 활용하기",
+    "solution": "AI Business Solutions",
+    "startDate": "2025-12-18",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=4104462115",
+    "id": "event-1766156955577-s5ja048tg"
+  },
+  {
+    "title": "클라우드·AI 보안, Microsoft Defender for Cloud로 완벽하게!",
+    "solution": "Security",
+    "startDate": "2026-01-15",
+    "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=222644301",
+    "id": "event-1766157369140-5gbt1a3nv"
+  },
+  {
+    "title": "해커의 눈으로 본 당신의 조직, 보안은 안전한가?",
+    "solution": "Security",
+    "startDate": "2026-01-22",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1834479319",
+    "id": "event-1766157401814-jay2k3e9m"
+  },
+  {
+    "title": "[MVTD] Transform your Everyday Business Processes with Agents",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-01-05",
+    "location": "미정",
+    "id": "event-1766365150894-u8nu3whqv"
+  },
+  {
+    "title": "AI 혁신을 위한 데이터 플랫폼의 미래. Microsoft Fabric을 알아보세요",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-01-20",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=4258570298",
+    "id": "event-1766365310915-3zhwfdlay"
+  },
+  {
+    "title": "AI Horizon 시리즈",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-01-27",
+    "location": "Digital(영어, KUDO 통역)",
+    "id": "event-1766365332350-v01q0ylz1"
+  },
+  {
+    "title": "Agentic DevOps 혁신, GitHub Copilot과 함께하세요!",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-01-29",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=657221072",
+    "id": "event-1766365358363-gzlrjlbu2"
+  },
+  {
+    "title": "Modernize SecOps, 통합으로 만드는 완성형 방어",
+    "solution": "Security",
+    "startDate": "2026-01-28",
+    "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1202470691",
+    "id": "event-1766365415913-pbpjhg4c0"
+  },
+  {
+    "title": "MCEM 1: Unify Your Data Platform",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-01-13",
+    "location": "Digital (영어)",
+    "id": "event-1766367632062-h7zgm4g2o"
+  },
+  {
+    "title": "생성형 AI 발전에 따른 보안 전략, 어떻게 가져갈 것인가",
+    "solution": "Security",
+    "startDate": "2026-01-08",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=3230712013",
+    "id": "event-1766367691689-pm7ossojh"
+  },
+  {
+    "title": "Ignite Recap (Online) - 새로운 가능성의 시작",
+    "solution": "All CSAs",
+    "startDate": "2025-12-16",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://www.allshowtv.com/detail.html?idx=1669",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzYxMTE3MjgyMDg2MDkyOCJ9?trk_copy_link=V2",
+    "id": "event-1766367753801-03gbeojm6"
+  },
+  {
+    "title": "MVTD 교육: Azure AI Fundamentals",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-18",
+    "endDate": "2025-12-19",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1699406191",
+    "id": "event-1766367832049-4wrta6wz8"
+  },
+  {
+    "title": "Future-Ready Data Strategy: Harnessing AI and Lakehouse for Innovation",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-19",
+    "location": "마이크로소프트 13층",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1892472015",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU5ODMzOTc5ODA1Njk2MCJ9?trk_copy_link=V2",
+    "id": "event-1766367903934-6jvx9w3bt"
+  },
+  {
+    "title": "Copilot Agent Hands-on 교육",
+    "solution": "AI Business Solutions",
+    "startDate": "2025-12-10",
+    "location": "KOSS 교육장",
+    "registrationUrl": "https://www.ikss.kr/kor/business/microsoft.php?m=v&idx=157&pNo=1&code=micro",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU4NjUwNjExMTUxNjY3MiJ9?trk_copy_link=V2",
+    "id": "event-1766368005682-71aa3082o"
+  },
+  {
+    "title": "MVTD 교육: Azure Data  Fundamentals",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-08",
+    "endDate": "2025-12-09",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=2616976148",
+    "id": "event-1766368061814-tsvd0as7j"
+  },
+  {
+    "title": "Gaming Leadership Roundtable: Shaping the Future with SQL and Microsoft​",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-11",
+    "location": "코트야드 바이 메리어트 서울 판교, PDR 3&4",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU5ODMzMDA2NTEwMDgwMCJ9?trk_copy_link=V2",
+    "id": "event-1766368117446-3mvxwyly2"
+  },
+  {
+    "title": "Microsoft Security: AI 시대의 보안 전략과 혁신",
+    "solution": "Security",
+    "startDate": "2025-12-10",
+    "location": "코엑스 컨퍼런스룸 300호",
+    "registrationUrl": "코엑스 컨퍼런스룸 300호",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU4ODE1MjkxNjQxMDM2OCJ9?trk_copy_link=V2",
+    "id": "event-1766368160279-yr9ogo14z"
+  },
+  {
+    "title": "MVTD 교육: 보안, 규정준수, ID 기본사항",
+    "solution": "Security",
+    "startDate": "2025-12-10",
+    "endDate": "2025-12-11",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=74665188",
+    "id": "event-1766368190281-8luzaph45"
+  },
+  {
+    "title": "AI Spark: 새로운 가능성의 시작",
+    "solution": "All CSAs",
+    "startDate": "2025-12-02",
+    "location": "소피텔 잠실",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=2318030553",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU4ODA0ODgzNTE1ODAxNiJ9?trk_copy_link=V2",
+    "id": "event-1766368229521-uhk4jq5l0"
+  },
+  {
+    "title": "SAP on Azure Partner Summit",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-04",
+    "location": "마이크로소프트 13층",
+    "registrationUrl": "https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR7-1ZtiW03hMqR7Irf932IpUNUw4REZSSUI0VE1ENkhJNVdTNUJKR00xTC4u&route=shorturl",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU5ODM1MTU2NDgzMjc2OCJ9?trk_copy_link=V2",
+    "id": "event-1766368262478-pdtfezv7e"
+  },
+  {
+    "title": "GitHub Universe'25 Recap Seoul",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-03",
+    "location": "마이크로소프트 13층",
+    "registrationUrl": "https://github.registration.goldcast.io/events/a6bd39d0-520a-4d7b-b0a3-864f1c510ab7?utm_source=resources&utm_medium=web&utm_campaign=recap25-SEL&utm_content=",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzU4ODA5MzM5MTIzMzAyNCJ9?trk_copy_link=V2",
+    "id": "event-1766368302500-feik5hn8h"
+  },
+  {
+    "title": "MVTD 교육: Azure Fundamentals",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2025-12-02",
+    "endDate": "2025-12-03",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=2830628396",
+    "id": "event-1766368334962-nji1ijrw5"
+  },
+  {
+    "title": "모든 직원을 위한 Copilot Chat​ Digital",
+    "solution": "AI Business Solutions",
+    "startDate": "2025-12-04",
+    "location": "마이크로소프트 13층",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=3047286218",
+    "id": "event-1766368374758-agc7ltpe1"
+  },
+  {
+    "title": "Agentic DevOps 혁신, GitHub Copilot과 함께하세요!",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-02-03",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=4289621730",
+    "id": "event-1767659191685-25xd4p0sf"
+  },
+  {
+    "title": "SAP, Microsoft 클라우드에서 혁신적으로 현대화하세요",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-02-12",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1502998541",
+    "id": "event-1767659223373-f6wbl31q2"
+  },
+  {
+    "title": "Microsoft Discovery Day: 보안으로 완성하는 AI 기반 생산성",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-02-10",
+    "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://info.microsoft.com/KO-SECAI-CNTNTO-FY26-12Dec-25-Microsoft-Discovery-Day-Robust-Security-for-AI-Powered-Productivity-SREVM83196_Catalog-Display-Page.html",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5MzcyMzEyNDUxNDgxNiJ9?trk_copy_link=V2",
+    "id": "event-1767659850799-zzh49cvxf"
+  },
+  {
+    "title": "Microsoft Tech Briefing: AI 시대, 조직 생산성을 안전하게 운영하는 전략",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-02-26",
+    "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=3150897791",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5MzkxMDA4OTc5MzUzNiJ9?trk_copy_link=V2",
+    "id": "event-1767659893070-kpwz0jlgm"
+  },
+  {
+    "title": "SAP, Microsoft 클라우드에서 혁신적으로 현대화하세요",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-01-15",
+    "time": "2:00 - 3:00 PM",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1502998541",
+    "id": "event-1767660499458-5fqyrierb"
+  },
+  {
+    "title": "마이크로소프트가 제안하는 글로벌 보안 트렌드와 AI 기반 혁신 전략",
+    "solution": "Security",
+    "startDate": "2026-02-05",
+    "time": "1:30 PM - 5:30 PM",
+    "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1292933939",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5MjQ2NzA4MDk3MDI0MCJ9?trk_copy_link=V2",
+    "id": "event-1767660710869-uom4okhri"
+  },
+  {
+    "title": "AI Tour Agenthon in Seoul 2026-Day 1 Lowcode Day",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-02-03",
+    "location": "마이크로소프트 13층",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1118464945",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY2NzkzMDc1Mjg2ODM1MiJ9?trk_copy_link=V2",
+    "id": "event-1767831581543-3fj5krf1l"
+  },
+  {
+    "title": "AI Tour Agenthon in Seoul 2026-Day 2 Procode Day",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-02-04",
+    "location": "마이크로소프트 13층",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=3749726199",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY2NzkzMDc1Mjg2ODM1MiJ9?trk_copy_link=V2",
+    "id": "event-1767831604562-epdqaz2ei"
+  },
+  {
+    "title": "Microsoft 365에서 Copilot Chat으로 더 쉽게 일하는 방법",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-02-24",
+    "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=2411074719",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5MzczNTkyMDAwOTIxNiJ9?trk_copy_link=V2",
+    "id": "event-1768349704036-h9kdljjjz"
+  }
+]
