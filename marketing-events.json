@@ -401,18 +401,21 @@
     "registrationUrl": "https://msevents.microsoft.com/event?id=04172168613773",
     "id": "event-1773931959105-f7hvwvtz5"
   },
-  {
-    "title": "Entra Suite Showcase: AI 시대를 위한 모든 아이덴티티와 리소스의 안전한 접근",
+   {
+    "title": "AI Secure Access 세미나",
     "solution": "Security",
     "startDate": "2026-04-15",
+    "endDate": "2026-04-15",
     "location": "마이크로소프트 13층",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=2165140401",
+    "vivaEngageUrl": "https://engage.cloud.microsoft/main/org/microsoft.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzc4ODc1ODEzMDQwMTI4MCJ9?trk_copy_link=V2",
     "id": "event-1774592869535-8955rk206"
   },
   {
     "title": "AI 혁신을 위한 데이터 플랫폼의 미래, Microsoft Fabric을 알아보세요",
     "solution": "Cloud and AI Platforms",
-    "startDate": "2026-04-23",
-    "endDate": "2026-04-23",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-12",
     "time": "2:00 PM - 3:00 PM",
     "location": "Digital(한국어)",
     "registrationUrl": "https://msevents.microsoft.com/event?id=1478445321",
@@ -423,7 +426,9 @@
     "solution": "Cloud and AI Platforms",
     "startDate": "2026-04-30",
     "endDate": "2026-04-30",
+    "time": "2:00 PM - 3:00 PM",
     "location": "Digital(한국어)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=3309564343",
     "id": "event-1774592952394-32fzk8g0y"
   },
   {
@@ -431,8 +436,9 @@
     "solution": "Security",
     "startDate": "2026-04-27",
     "endDate": "2026-04-27",
-    "time": "10:00 AM - 12:00 PM",
+    "time": "2:00 PM - 5:00 PM",
     "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=957185644",
     "id": "event-1774592983065-vsem0bysc"
   },
   {
@@ -442,15 +448,17 @@
     "endDate": "2026-04-27",
     "time": "10:00 AM - 12:00 PM",
     "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=5196091",
     "id": "event-1774593014170-cc14d219h"
   },
   {
     "title": "Microsoft Security Virtual Training Day: Microsoft Security 소개 (Part 2)",
-    "solution": "Cloud and AI Platforms",
+    "solution": "Security",
     "startDate": "2026-04-28",
     "endDate": "2026-04-28",
-    "time": "2:00 PM - 5:00 PM",
+    "time": "2:00 PM - 4:45 PM",
     "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=22588479540",
     "id": "event-1774593036201-7d5kfnidp"
   },
   {
@@ -458,15 +466,18 @@
     "solution": "Cloud and AI Platforms",
     "startDate": "2026-04-28",
     "endDate": "2026-04-28",
-    "time": "2:00 PM - 5:00 PM",
+    "time": "10:00 AM - 12:00 PM",
     "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=21288433709",
     "id": "event-1774593054241-xrw0jw9rj"
   },
   {
     "title": "Microsoft Virtual Training Day: Copilot과 AI 에이전트로 완성하는 지능형 업무 환경",
     "solution": "AI Business Solutions",
     "startDate": "2026-04-29",
+    "time": "1:00 PM ~ 5:00 PM",
     "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://msevents.microsoft.com/event?id=1178760378",
     "id": "event-1774594419925-t1c7wmn20"
   },
   {
@@ -475,5 +486,32 @@
     "startDate": "2026-04-30",
     "location": "Digital(한국어)",
     "id": "event-1774594443159-6uemrc4fx"
+  },
+  {
+    "title": "Microsoft Virtual Training Day: AI 에이전트 확산 시대, 안전한 Copilot 운영 전략",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-05-11",
+    "location": "Digital(영어, 한국어 자막)",
+    "id": "event-1775035964585-c8w4oj2mt"
+  },
+  {
+    "title": "Microsoft Azure Summit: Migrate and Modernize with Agentic AI Korea",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-04-23",
+    "endDate": "2026-04-23",
+    "time": "09:30 AM - 11:45 AM",
+    "location": "Digital(영어, 한국어 자막)",
+    "registrationUrl": "https://info.microsoft.com/GT-PRODUCT-DIGLE-FY26-03Mar-10-Migrate-and-Modernize-Summit-Korea-KR_LP01-Registration.html",
+    "id": "event-1775194052630-blxvkgppd"
+  },
+  {
+    "title": "Azure agentic migration and modernization tour - Seoul",
+    "solution": "Cloud and AI Platforms",
+    "startDate": "2026-04-22",
+    "endDate": "2026-04-22",
+    "time": "09:00 AM - 12:30 PM",
+    "location": "서울시 서초구 강남대로 213번지, 서울 L타워, 오르케홀 ",
+    "registrationUrl": "https://azureaimm.eventbuilder.com/events/11f1279b189ecaf0bb279b59671d5e1c",
+    "id": "event-1775194171456-xxbc7vci9"
   }
 ]
