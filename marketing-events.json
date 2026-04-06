@@ -491,6 +491,7 @@
     "title": "Microsoft Virtual Training Day: AI 에이전트 확산 시대, 안전한 Copilot 운영 전략",
     "solution": "AI Business Solutions",
     "startDate": "2026-05-11",
+    "time": "13:30-17:15",
     "location": "Digital(영어, 한국어 자막)",
     "id": "event-1775035964585-c8w4oj2mt"
   },
@@ -514,4 +515,13 @@
     "registrationUrl": "https://azureaimm.eventbuilder.com/events/11f1279b189ecaf0bb279b59671d5e1c",
     "id": "event-1775194171456-xxbc7vci9"
   }
+    {
+    "title": "Microsoft Virtual Training Day: AI 에이전트로 일상 업무 자동화를 실무에 적용하는 방법",
+    "solution": "AI Business Solutions",
+    "startDate": "2026-05-15",
+    "time": "2:00 PM - 5:00 PM",
+    "location": "Digital(영어, 한국어 자막)",
+    "id": "event-1775456558173-cayhmsp6c"
+  }
 ]
+
